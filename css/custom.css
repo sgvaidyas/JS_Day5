@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+    position:fixed;
+}
+#logo
+{
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+#menu
+{
+    width: 70%;
+    float: left;
+    margin-right: 10%;
+}
+#menu ul
+{
+    padding-left: 0px;
+}
+#menu ul li
+{
+    list-style: none;
+    width: 15%;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: coral;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#menu ul li:nth-child(odd){
+    background-color: black;
+    color:wheat;
+}
+#menu ul li:nth-child(1)
+{
+    margin-left: 40%;
+}
+#menu ul li a{
+    color: black;
+}
+#menu ul li:nth-child(odd) a {
+    color: wheat;
+}
+
+#home, #about,#team,#contact
+{
+    width: 100%;
+    height: 500px;
+    padding-top:100px;
+}
+#home
+{
+   background-image: url('../images/bg1.jpg');
+   background-size: 100% 100%;
+   color: wheat;
+}
+
+#about
+{
+    background-color:brown;
+}
+#team
+{
+    background-color:rgb(10, 30, 86);
+}
+#contact
+{
+    background-color:rgb(114, 195, 7);
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+#home div{
+    padding-top:200px
+}
+
+#home div h1{
+    background-color: rgb(16, 14, 14,0.5);
+    width: 60%;
+    height: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 30px;
+}
+#home div p{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#about .aboutcont1
+{
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+    padding-top: 50px;
+}
+.leftdiv
+{
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+}
+.right
+{
+    width: 44%;
+    padding-left: 5%;
+    float: left;
+    border-left: 2px solid black;
+    height: 315px;
+}
